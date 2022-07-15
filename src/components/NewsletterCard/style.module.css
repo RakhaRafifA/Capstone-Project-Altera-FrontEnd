@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  min-height: 50%;
+}
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  min-width: 98%;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: 10px;
+  color: var(--dark90);
+  font-size: 15px;
+}
+.time {
+  margin-top: 20px;
+  font-size: 12px;
+  color: var(--dark60);
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}

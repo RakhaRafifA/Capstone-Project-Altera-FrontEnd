@@ -1,0 +1,123 @@
+:root {
+  --primary: #0583d2;
+  --hover: #0268b1;
+  --background: #e8f4fc;
+  --dark90: #505152;
+  --dark80: #666869;
+  --dark60: #a0a1a1;
+  --neutrals: #7b827e;
+  --sucess-default: #189f00;
+  --error-default: #d32f2f;
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.no-pl {
+  padding-left: 0;
+}
+
+.label {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.content_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.private-routes-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.private-routes-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin-left: 18%;
+}
+
+::placeholder,
+div.css-14el2xx-placeholder {
+  color: var(--dark60);
+}
+.red {
+  color: var(--error-default);
+}
+.list {
+  list-style-type: none;
+  text-align: right;
+  color: var(--dark90);
+}
+.Platinum {
+  background-image: linear-gradient(
+    to right,
+    #1d272e,
+    #979797,
+    #f9f9f9,
+    #979797
+  ) !important;
+}
+.Platinum > .alert-wrap > h4,
+.Silver > .alert-wrap > h4 {
+  color: #1d272e;
+}
+.Platinum > .second,
+.Silver > .second {
+  background-color: #1d272e;
+  color: white !important;
+}
+.Gold {
+  background-image: linear-gradient(
+    to right,
+    #f9f295,
+    #e0aa3e,
+    #b88a44
+  ) !important;
+}
+
+.Silver {
+  background-image: linear-gradient(
+    to right,
+    #979797,
+    #f9f9f9,
+    #979797,
+    #f9f9f9,
+    #979797
+  ) !important;
+}
+.alert-container {
+  display: flex;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 20px;
+  min-height: 150px;
+  width: fit-content;
+  padding: 10px 1px 10px 20px;
+  margin: 0 auto;
+}
+
+.alert-wrap > p {
+  font-size: 12px;
+}
+.alert-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.alert-wrap > h4 {
+  color: var(--dark90);
+}
+.second {
+  color: wheat !important;
+  background-color: var(--dark90);
+  padding: 10px;
+  border-radius: 20px 6px 6px 20px;
+}
+.alert-title {
+  font-size: 18px !important;
+}

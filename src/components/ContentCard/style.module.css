@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+}
+
+.link {
+  margin-top: 10px;
+  color: var(--dark90);
+  font-size: 15px;
+}
+
+.link > span {
+  color: var(--primary);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}

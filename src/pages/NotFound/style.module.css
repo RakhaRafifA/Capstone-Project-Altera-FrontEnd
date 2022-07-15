@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fefefe;
+
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.error404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  width: auto;
+}
+.img_wrapper {
+  display: flex;
+  flex-basis: 40%;
+}
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  margin-bottom: 140px;
+}
+.text_wrapper > p {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.btn_container {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}

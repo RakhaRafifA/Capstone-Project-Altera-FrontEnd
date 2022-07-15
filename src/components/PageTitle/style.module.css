@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    color: var(--dark90);
+    font-size: 24px;
+    font-weight: 500;
+    margin: 28px 40px;
+    align-items: center;
+}
+
+.icon {
+    font-size: 28px;
+    margin-right: 0.5rem;
+    margin-bottom: 7px;
+}

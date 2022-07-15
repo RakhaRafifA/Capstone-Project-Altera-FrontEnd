@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+td,
+th {
+  padding: 1rem 0;
+  padding-right: 1rem;
+}
+
+.detail_icon {
+  color: var(--hover);
+  font-size: 24px;
+  margin-right: 0.8rem;
+  cursor: pointer;
+}
+
+.delete_icon {
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}

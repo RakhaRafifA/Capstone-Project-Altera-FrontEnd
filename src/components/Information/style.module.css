@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: white;
+  display: flex;
+  width: 29.4%;
+  border-radius: 12px;
+  padding: 20px;
+  color: var(--dark90);
+  justify-content: space-between;
+}
+.left {
+  font-size: 35px;
+  flex-basis: 25%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  align-items: center;
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.info {
+  font-size: 24px;
+  font-weight: 600;
+}

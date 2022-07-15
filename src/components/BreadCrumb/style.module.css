@@ -1,0 +1,29 @@
+.breadcrumb {
+  margin: 0;
+  font-weight: 500;
+}
+
+.links,
+.links_disabled {
+  list-style-type: none;
+  font-size: 18px;
+  display: inline;
+}
+
+.links>a,
+.links_disabled>a {
+  text-decoration: none;
+}
+
+.links>a {
+  color: var(--primary);
+}
+
+.links>a:hover {
+  color: var(--hover);
+}
+
+.links_disabled>a {
+  color: var(--dark60);
+  pointer-events: none;
+}

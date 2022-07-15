@@ -1,0 +1,35 @@
+.container {
+  color: var(--dark60);
+  background-color: white;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 18%;
+  min-height: 100vh;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container > div > h1 {
+  font-size: 34px;
+}
+
+.container > div > img {
+  width: 3.8em;
+  margin: 20px 10px 10px 0px;
+}
+
+.container > div {
+  margin-bottom: 25px;
+  margin-top: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 26%;
+  }
+}

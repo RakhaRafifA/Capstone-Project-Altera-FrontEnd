@@ -1,0 +1,35 @@
+.content_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.select_input {
+  font-family: "Inter", sans-serif !important;
+  color: var(--dark90);
+}
+
+.select_input > div {
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--dark80);
+  border-radius: 12px;
+  margin: 1rem 0;
+  margin-right: 1rem;
+  font-size: 14px;
+}
+
+.select_input span {
+  display: none;
+}
+
+.select_input svg {
+  color: black;
+}
+
+.button {
+  float: right;
+  margin-top: 20px;
+}
+.notActive > div > div > b {
+  color: var(--error-default);
+}

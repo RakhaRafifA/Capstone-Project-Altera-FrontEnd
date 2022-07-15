@@ -1,0 +1,64 @@
+.button {
+  float: right !important;
+  margin-top: 16px;
+}
+
+.select_input > div {
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--dark80);
+  border-radius: 12px;
+  margin-right: 1rem;
+  font-size: 14px;
+}
+
+.select_input span {
+  display: none;
+}
+
+.select_input svg {
+  color: black;
+}
+
+.input > div > div > label {
+  margin-top: 1rem !important;
+}
+
+.doughnut {
+  margin-top: 0;
+  width: 50% !important;
+}
+
+.doughnut > h5 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.donut_inner {
+  margin-top: -52%;
+  margin-left: 42%;
+}
+
+.donut_inner h3 {
+  margin-left: 3%;
+  font-weight: bold;
+}
+
+.donut_inner span {
+  font-size: 12px;
+}
+
+.info {
+  float: right;
+  margin-top: 48%;
+}
+.left {
+  display: flex;
+}

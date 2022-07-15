@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    color: var(--dark90);
+}
+
+.container>img {
+    width: 5rem;
+    margin-right: 1.5rem;
+}
+
+.container>h1 {
+    font-size: 3em;
+    font-weight: 500;
+}
